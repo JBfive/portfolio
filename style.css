@@ -64,7 +64,7 @@ body {
     height: 50px;
     padding-left: 10px;
     color: #525659;
-    line-height: 80%;
+    line-height: 95%;
     
   }
   .name {
@@ -99,7 +99,7 @@ body {
   }
   
   #about .content {
-    margin: 290px auto;
+    margin: 220px auto;
     background-color: black;
     width: 100%;
     z-index: 10;
@@ -193,10 +193,11 @@ body {
   
   #contact {
     height: 200px;
-    width: 1200px;
+    width: 100%;
     margin: auto;
-
+    background-color: black;
     justify-content: center;
+    
   }
   
   /* Footer Section */
