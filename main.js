@@ -6,6 +6,8 @@ const h = document.getElementById("hButton");
 const s = document.getElementById("sButton");
 const t = document.getElementById("tButton");
 
+
+
 h.onclick = () => {
     console.log("clicked h")
     hSkill.style.display = 'block';
