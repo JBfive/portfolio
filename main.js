@@ -1,10 +1,12 @@
 const hSkill = document.getElementById('hard-skill');
 const sSkill = document.getElementById('soft-skill');
 const techU = document.getElementById('tech');
+const stillL = document.getElementById('learn');
 
 const h = document.getElementById("hButton");
 const s = document.getElementById("sButton");
 const t = document.getElementById("tButton");
+const l = document.getElementById("lButton");
 
 
 
@@ -13,6 +15,7 @@ h.onclick = () => {
     hSkill.style.display = 'block';
     sSkill.style.display = 'none';
     techU.style.display = 'none';
+    stillL.style.display = 'none';
 };
 
 s.onclick = () => {
@@ -20,6 +23,7 @@ s.onclick = () => {
     sSkill.style.display = 'block';
     hSkill.style.display = 'none';
     techU.style.display = 'none';
+    stillL.style.display = 'none';
 };
 
 t.onclick = () => {
@@ -27,7 +31,16 @@ t.onclick = () => {
     techU.style.display = 'block';
     hSkill.style.display = 'none';
     sSkill.style.display = 'none';
+    stillL.style.display = 'none';
 };
+
+l.onclick = () => {
+    console.log("clicked l");
+    stillL.style.display = 'block';
+    hSkill.style.display = 'none';
+    sSkill.style.display = 'none';
+    techU.style.display = 'none';
+}
 
 
 
